@@ -17,6 +17,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter h870 h872 h870ds us997,$(TARGET_DEVICE)),)
+ifneq ($(filter zl1 x2,$(TARGET_DEVICE)),)
 
 endif

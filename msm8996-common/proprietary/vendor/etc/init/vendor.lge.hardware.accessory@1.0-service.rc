@@ -1,0 +1,4 @@
+service vendor.lge-accessory-hal-1-0 /vendor/bin/hw/vendor.lge.hardware.accessory@1.0-service
+    class hal
+    user system
+    group system
