@@ -45,6 +45,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/framework/com.qualcomm.qti.imscmservice@1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.qualcomm.qti.imscmservice@1.0-java.jar \
     vendor/lge/msm8996-common/proprietary/framework/izat.xt.srv.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/izat.xt.srv.jar \
     vendor/lge/msm8996-common/proprietary/framework/qcrilhook.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/qcrilhook.jar \
+    vendor/lge/msm8996-common/proprietary/framework/vendor.lge.hardware.biometrics.fingerprint-V2.1-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.lge.hardware.biometrics.fingerprint-V2.1-java.jar \
+    vendor/lge/msm8996-common/proprietary/framework/vendor.lge.hardware.biometrics.fingerprint-V2.2-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.lge.hardware.biometrics.fingerprint-V2.2-java.jar \
     vendor/lge/msm8996-common/proprietary/framework/vendor.lge.hardware.bootproperty-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.lge.hardware.bootproperty-V1.0-java.jar \
     vendor/lge/msm8996-common/proprietary/framework/vendor.lge.hardware.configstore-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.lge.hardware.configstore-V1.0-java.jar \
     vendor/lge/msm8996-common/proprietary/framework/vendor.lge.hardware.platform-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.lge.hardware.platform-V1.0-java.jar \
@@ -52,9 +54,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/framework/vendor.lge.hardware.property-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.lge.hardware.property-V1.0-java.jar \
     vendor/lge/msm8996-common/proprietary/framework/vendor.lge.hardware.property-V1.1-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.lge.hardware.property-V1.1-java.jar \
     vendor/lge/msm8996-common/proprietary/framework/vendor.lge.hardware.property-V1.2-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.lge.hardware.property-V1.2-java.jar \
-    vendor/lge/msm8996-common/proprietary/vendor/framework/vendor.lge.hardware.sysnode-V1.0-java.jar:$(TARGET_COPY_OUT_VENDOR)/framework/vendor.lge.hardware.sysnode-V1.0-java.jar \
     vendor/lge/msm8996-common/proprietary/framework/vendor.lge.hardware.thermal-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.lge.hardware.thermal-V1.0-java.jar \
-    vendor/lge/msm8996-common/proprietary/vendor/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar:$(TARGET_COPY_OUT_VENDOR)/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar \
+    vendor/lge/msm8996-common/proprietary/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar \
     vendor/lge/msm8996-common/proprietary/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar \
     vendor/lge/msm8996-common/proprietary/framework/vendor.qti.voiceprint-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.qti.voiceprint-V1.0-java.jar \
     vendor/lge/msm8996-common/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
@@ -88,6 +89,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/lib/libwfduibcsinkinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsinkinterface.so \
     vendor/lge/msm8996-common/proprietary/lib/libwfduibcsrc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsrc.so \
     vendor/lge/msm8996-common/proprietary/lib/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsrcinterface.so \
+    vendor/lge/msm8996-common/proprietary/lib/vendor.lge.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.lge.hardware.biometrics.fingerprint@2.1.so \
+    vendor/lge/msm8996-common/proprietary/lib/vendor.lge.hardware.biometrics.fingerprint@2.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.lge.hardware.biometrics.fingerprint@2.2.so \
     vendor/lge/msm8996-common/proprietary/lib/vendor.lge.hardware.bootproperty@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.lge.hardware.bootproperty@1.0.so \
     vendor/lge/msm8996-common/proprietary/lib/vendor.lge.hardware.configstore@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.lge.hardware.configstore@1.0.so \
     vendor/lge/msm8996-common/proprietary/lib/vendor.lge.hardware.platform@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.lge.hardware.platform@1.0.so \
@@ -96,13 +99,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/lib/vendor.lge.hardware.property@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.lge.hardware.property@1.1.so \
     vendor/lge/msm8996-common/proprietary/lib/vendor.lge.hardware.property@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.lge.hardware.property@1.2.so \
     vendor/lge/msm8996-common/proprietary/lib/vendor.lge.hardware.sensors@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.lge.hardware.sensors@1.0.so \
-    vendor/lge/msm8996-common/proprietary/vendor/lib/vendor.lge.hardware.sysnode@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.lge.hardware.sysnode@1.0.so \
     vendor/lge/msm8996-common/proprietary/lib/vendor.lge.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.lge.hardware.thermal@1.0.so \
+    vendor/lge/msm8996-common/proprietary/lib/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/lge/msm8996-common/proprietary/lib/vendor.qti.hardware.sensorscalibrate@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.sensorscalibrate@1.0.so \
     vendor/lge/msm8996-common/proprietary/lib/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.voiceprint@1.0.so \
+    vendor/lge/msm8996-common/proprietary/lib64/android.hardware.thermal@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.thermal@1.1.so \
     vendor/lge/msm8996-common/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/lge/msm8996-common/proprietary/lib64/lib-imscamera.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-imscamera.so \
-    vendor/lge/msm8996-common/proprietary/lib64/android.hardware.thermal@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.thermal@1.1.so \
     vendor/lge/msm8996-common/proprietary/lib64/lib-imsvideocodec.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-imsvideocodec.so \
     vendor/lge/msm8996-common/proprietary/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-imsvt.so \
     vendor/lge/msm8996-common/proprietary/lib64/lib-imsvtextutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-imsvtextutils.so \
@@ -124,6 +127,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/lib64/libwfdclient.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdclient.so \
     vendor/lge/msm8996-common/proprietary/lib64/libwfdnative.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdnative.so \
     vendor/lge/msm8996-common/proprietary/lib64/libxt_native.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libxt_native.so \
+    vendor/lge/msm8996-common/proprietary/lib64/vendor.lge.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.lge.hardware.biometrics.fingerprint@2.1.so \
+    vendor/lge/msm8996-common/proprietary/lib64/vendor.lge.hardware.biometrics.fingerprint@2.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.lge.hardware.biometrics.fingerprint@2.2.so \
     vendor/lge/msm8996-common/proprietary/lib64/vendor.lge.hardware.bootproperty@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.lge.hardware.bootproperty@1.0.so \
     vendor/lge/msm8996-common/proprietary/lib64/vendor.lge.hardware.configstore@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.lge.hardware.configstore@1.0.so \
     vendor/lge/msm8996-common/proprietary/lib64/vendor.lge.hardware.platform@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.lge.hardware.platform@1.0.so \
@@ -132,8 +137,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/lib64/vendor.lge.hardware.property@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.lge.hardware.property@1.1.so \
     vendor/lge/msm8996-common/proprietary/lib64/vendor.lge.hardware.property@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.lge.hardware.property@1.2.so \
     vendor/lge/msm8996-common/proprietary/lib64/vendor.lge.hardware.sensors@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.lge.hardware.sensors@1.0.so \
-    vendor/lge/msm8996-common/proprietary/vendor/lib64/vendor.lge.hardware.sysnode@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.lge.hardware.sysnode@1.0.so \
     vendor/lge/msm8996-common/proprietary/lib64/vendor.lge.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.lge.hardware.thermal@1.0.so \
+    vendor/lge/msm8996-common/proprietary/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/lge/msm8996-common/proprietary/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so \
     vendor/lge/msm8996-common/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/lge/msm8996-common/proprietary/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.voiceprint@1.0.so \
@@ -180,11 +185,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
     vendor/lge/msm8996-common/proprietary/vendor/bin/hw/android.hardware.power@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.power@1.2-service \
     vendor/lge/msm8996-common/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
+    vendor/lge/msm8996-common/proprietary/vendor/bin/hw/vendor.lge.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.biometrics.fingerprint@2.1-service \
     vendor/lge/msm8996-common/proprietary/vendor/bin/hw/vendor.lge.hardware.bootproperty@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.bootproperty@1.0-service \
     vendor/lge/msm8996-common/proprietary/vendor/bin/hw/vendor.lge.hardware.configstore@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.configstore@1.0-service \
     vendor/lge/msm8996-common/proprietary/vendor/bin/hw/vendor.lge.hardware.platform@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.platform@1.1-service \
     vendor/lge/msm8996-common/proprietary/vendor/bin/hw/vendor.lge.hardware.property@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.property@1.2-service \
-    vendor/lge/msm8996-common/proprietary/vendor/bin/hw/vendor.lge.hardware.sysnode@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.sysnode@1.0-service \
     vendor/lge/msm8996-common/proprietary/vendor/bin/hw/vendor.lge.hardware.thermal@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.lge.hardware.thermal@1.0-service \
     vendor/lge/msm8996-common/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.perf@2.0-service \
     vendor/lge/msm8996-common/proprietary/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti \
@@ -343,15 +348,16 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
     vendor/lge/msm8996-common/proprietary/vendor/etc/init/dataqti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataqti.rc \
     vendor/lge/msm8996-common/proprietary/vendor/etc/init/dpmQmiMgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dpmQmiMgr.rc \
+    vendor/lge/msm8996-common/proprietary/vendor/etc/init/hw/init.lge.fingerprints.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.lge.fingerprints.rc \
     vendor/lge/msm8996-common/proprietary/vendor/etc/init/init.lge.bootproperty_trigger.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.lge.bootproperty_trigger.rc \
     vendor/lge/msm8996-common/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
     vendor/lge/msm8996-common/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
     vendor/lge/msm8996-common/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
+    vendor/lge/msm8996-common/proprietary/vendor/etc/init/vendor.lge.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/lge/msm8996-common/proprietary/vendor/etc/init/vendor.lge.hardware.bootproperty@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.bootproperty@1.0-service.rc \
     vendor/lge/msm8996-common/proprietary/vendor/etc/init/vendor.lge.hardware.configstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.configstore@1.0-service.rc \
     vendor/lge/msm8996-common/proprietary/vendor/etc/init/vendor.lge.hardware.platform@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.platform@1.1-service.rc \
     vendor/lge/msm8996-common/proprietary/vendor/etc/init/vendor.lge.hardware.property@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.property@1.2-service.rc \
-    vendor/lge/msm8996-common/proprietary/vendor/etc/init/vendor.lge.hardware.sysnode-1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.sysnode-1.0-service.rc \
     vendor/lge/msm8996-common/proprietary/vendor/etc/init/vendor.lge.hardware.thermal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.lge.hardware.thermal@1.0-service.rc \
     vendor/lge/msm8996-common/proprietary/vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf@2.0-service.rc \
     vendor/lge/msm8996-common/proprietary/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc \
@@ -366,6 +372,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
     vendor/lge/msm8996-common/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
     vendor/lge/msm8996-common/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
+    vendor/lge/msm8996-common/proprietary/vendor/etc/permissions/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml \
     vendor/lge/msm8996-common/proprietary/vendor/etc/qdcm_calib_data_SW49408_1440_2880_cmd_mode_dsc_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_SW49408_1440_2880_cmd_mode_dsc_dsi_panel.xml \
     vendor/lge/msm8996-common/proprietary/vendor/etc/thermal-engine-8996.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-8996.conf \
     vendor/lge/msm8996-common/proprietary/vendor/etc/thermal-engine-default.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-default.conf \
@@ -396,7 +403,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/hw/activity_recognition.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/activity_recognition.msm8996.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/hw/camera.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8996.so \
-    vendor/lge/msm8996-common/proprietary/vendor/lib/hw/fingerprint.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.msm8996.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/hw/gatekeeper.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.msm8996.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/hw/keystore.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.msm8996.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/hw/power.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.msm8996.so \
@@ -404,8 +410,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/vendor/lib/hw/thermal.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.msm8996.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/hw/vendor.lge.hardware.bootproperty@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.lge.hardware.bootproperty@1.0-impl.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/hw/vendor.lge.hardware.property@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.lge.hardware.property@1.2-impl.so \
-    vendor/lge/msm8996-common/proprietary/vendor/lib/hw/vendor.lge.hardware.sysnode@1.0-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.lge.hardware.sysnode@1.0-client.so \
-    vendor/lge/msm8996-common/proprietary/vendor/lib/hw/vendor.lge.hardware.sysnode@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.lge.hardware.sysnode@1.0-impl.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/hw/vulkan.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.msm8996.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libAutoContrast.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAutoContrast.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libC2D2.so \
@@ -1096,8 +1100,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/hw/thermal.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.msm8996.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/hw/vendor.lge.hardware.bootproperty@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.lge.hardware.bootproperty@1.0-impl.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/hw/vendor.lge.hardware.property@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.lge.hardware.property@1.2-impl.so \
-    vendor/lge/msm8996-common/proprietary/vendor/lib64/hw/vendor.lge.hardware.sysnode@1.0-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.lge.hardware.sysnode@1.0-client.so \
-    vendor/lge/msm8996-common/proprietary/vendor/lib64/hw/vendor.lge.hardware.sysnode@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.lge.hardware.sysnode@1.0-impl.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/hw/vendor.qti.gnss@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@3.0-impl.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/hw/vulkan.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.msm8996.so \
     vendor/lge/msm8996-common/proprietary/vendor/lib64/lib-dplmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-dplmedia.so \
